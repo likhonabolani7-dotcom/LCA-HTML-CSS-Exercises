@@ -1,0 +1,77 @@
+/* General Page Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    /* Extra padding at the top so content doesn't hide under the fixed nav */
+    padding-top: 80px; 
+    background-color: #f9f9f9;
+}
+
+/* Navigation Bar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 15px;
+    z-index: 1000;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center; /* Evenly spaces links in the center */
+    gap: 40px; /* Modern way to add spacing between flex items */
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Headings */
+h1 {
+    color: #2c3e50;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #2c3e50;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+/* Blog Post Container & Content */
+.container {
+    max-width: 800px;
+    margin: 0 auto; /* Centers the container on the page */
+    padding: 0 20px;
+}
+
+.post {
+    background: #ffffff;
+    padding: 25px;
+    margin-bottom: 20px; /* Spacing between posts */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+/* Links */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+}
